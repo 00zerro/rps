@@ -1,0 +1,73 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+
+body{
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-style: oblique;
+    color: white;
+    border-top: 5px white dotted;
+    border-radius: 50px;
+    width: 40vh;
+    margin: 40px auto;
+    text-decoration: underline;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+
+.button{
+    width: 256px;
+    height: 200px;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.button:hover img{
+    scale: 1.4;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover{
+    transition: 200ms;
+    border: 3px dashed rgb(255, 255, 255);
+    scale: 0.9;
+}
+
+img{
+    transition-timing-function: ease-in-out;
+    transition: 200ms;
+    width: 143px;
+    height: 143px;
+}
+
+#score{
+    text-align: center;
+    font-size: 9vh;
+    font-weight: 200;
+    border-bottom: 5px white dotted;
+    width: 30vh;
+    margin: auto;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#aiChose, #youChose{
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    margin: 50px;
+}

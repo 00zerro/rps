@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="buttons-container">
+        <button onclick="doAction(0)" class="button"><img src="img/rock.png" class="img"></button>
+        <button onclick="doAction(1)" class="button"><img src="img/paper.png" class="img"></button>
+        <button onclick="doAction(2)" class="button"><img src="img/scissors.png" class="img"></button>
+    </div>
+
+    <p id="aiChose">Click one of the buttons!</p>
+    <p id="youChose">...</p>
+
+    <p id="score">0 : 0</p>
+    <script src="script.js" defer></script>
+</body>
+</html>
